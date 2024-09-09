@@ -1,6 +1,6 @@
 ## Bootstrap Flexbox Gyakorlás
 
-Üdvözlünk a **Bootstrap Flexbox Gyakorló Oldalon**! 🎉
+Üdvözöllek a **Bootstrap Flexbox Gyakorló Oldalon**! 🎉
 
 Ez a weboldal egy interaktív sandbox, ahol gyakorolhatod a Bootstrap Flexbox rendszerét. A Flexbox egy rendkívül hatékony és rugalmas elrendezési módszer, amely lehetővé teszi a tartalom egyszerű és dinamikus elhelyezését weboldalakon.
 
