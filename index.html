@@ -156,7 +156,7 @@
         select.classList.add('form-select', 'mb-3', 'align-self-select');
         select.setAttribute('data-item-index', itemIndex);
 
-        const options = ['Nincs beállítva', 'align-self-start', 'align-self-center', 'align-self-end', 'align-self-stretch'];
+        const options = ['Nincs beállítva', 'align-self-auto', 'align-self-start', 'align-self-center', 'align-self-end', 'align-self-stretch', 'align-self-baseline'];
         options.forEach(optionText => {
             const option = document.createElement('option');
             option.value = optionText === 'Nincs beállítva' ? '' : optionText;
