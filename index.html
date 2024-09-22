@@ -209,11 +209,12 @@
         for (let i = 1; i <= itemCount; i++) {
             const alignSelfSelect = document.querySelector(`.align-self-select[data-item-index="${i}"]`);
             const alignSelfValue = alignSelfSelect ? alignSelfSelect.value : '';
-            itemsHtml += `    <div class="flex-item ${alignSelfValue}`.trimEnd()+`">${i}</div>\n`;
+            
+            itemsHtml += alignSelfValue===''?`    <div>${i}</div>\n` : `    <div class="${alignSelfValue}`.trimEnd()+`">${i}</div>\n`;
         }
 
         generatedCodePre.textContent = 
-((`<div class="d-flex ${flexDirectionValue}${flexWrapValue}${justifyContentValue}${alignItemsValue}${alignContentValue}`).trim()) + `">
+((`<div class="d-flex vh-100 ${flexDirectionValue}${flexWrapValue}${justifyContentValue}${alignItemsValue}${alignContentValue}`).trim()) + `">
 ${itemsHtml}</div>`;
     }
 
